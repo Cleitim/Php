@@ -13,7 +13,7 @@
     </head>
     
     <body>
-        <?php include ("menu.php"); ?>
+        <?php require_once ("menu.php"); ?>
     
         <div>
             <h1 >Produtos</h1>
@@ -21,7 +21,7 @@
 
        
         <script type="text/javascript" src="js/bootstrap.js"></script>
-         <?php include ("radape.php"); ?>       
+         <?php require_once ("radape.php"); ?>       
      </body>
    
 </html>

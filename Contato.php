@@ -12,7 +12,7 @@
 	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
     </head>
     <body>
-        <?php include ("menu.php"); ?>
+        <?php require_once ("menu.php"); ?>
     
         <div>
             <h1>Contato</h1>
@@ -26,7 +26,7 @@
             
         </form>
          <script type="text/javascript" src="js/bootstrap.js"></script>
-         <?php include ("radape.php"); ?>
+         <?php require_once ("radape.php"); ?>
      </body>
    
 </html>

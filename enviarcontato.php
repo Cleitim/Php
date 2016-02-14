@@ -14,7 +14,7 @@
     <body>
       
 <?php
-        include ("menu.php"); 
+        require_once ("menu.php"); 
         $nome= $_REQUEST['nome'];
         $email= $_REQUEST['email'];
         $assunto= $_REQUEST['assunto'];
@@ -32,7 +32,7 @@
             
         </form>
          <script type="text/javascript" src="js/bootstrap.js"></script>
-         <?php include ("radape.php"); ?>
+         <?php require_once ("radape.php"); ?>
      </body>
    
 </html>
