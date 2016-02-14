@@ -12,17 +12,23 @@
 	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
     </head>
     <body>
-        <?php include ("menu.php"); ?>
-    
-        <div>
-            <h1>Contato</h1>
-        </div>
-        <form action="enviarcontato.php" method="post">
-            <input type="text" id="nome" name="nome" class="span6" placeholder="Nome"><br>
-            <input type="email"name="email" required class="span6" placeholder="Email"><br>
-            <input type="text" name="assunto" class="span8" placeholder="Assunto"><br>
-            <textarea type=text" name="descricao" class="span8" placeholder="Descrição"></textarea> <br>
-            <button class="btn" type="submit">Enviar</button>
+      
+<?php
+        include ("menu.php"); 
+        $nome= $_REQUEST['nome'];
+        $email= $_REQUEST['email'];
+        $assunto= $_REQUEST['assunto'];
+        $descricao= $_REQUEST['descricao'];
+
+        echo '<h3 class="teste">Dados enviados com sucesso, abaixo seguem os dados que você enviou:</h3><br>';
+        
+        echo '<p> Nome :'.$nome."</p>";
+        echo '<p> Email : '.$email."</p>";
+        echo '<p> Assunto : '.$assunto."</p>";
+        echo '<p> Descrição : '.$descricao."</p><br>";
+
+
+?>
             
         </form>
          <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -30,3 +36,4 @@
      </body>
    
 </html>
+
