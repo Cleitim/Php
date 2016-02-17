@@ -6,4 +6,4 @@
             <h4> Bem vindo ao Site Simples em PHP.</h4>
         </div>
 
-<?php require_once ("radape.php");
+<?php require_once ("rodape.php");

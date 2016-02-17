@@ -14,4 +14,4 @@ echo '<p> Assunto : '.$assunto."</p>";
 echo '<p> Descrição : '.$descricao."</p><br>";
 
 
- require_once ("radape.php");
+ require_once ("rodape.php");

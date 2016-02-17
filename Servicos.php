@@ -4,4 +4,4 @@
             <h1>Serviços</h1>
         </div>
 
-<?php require_once ("radape.php");
+<?php require_once ("rodape.php");
